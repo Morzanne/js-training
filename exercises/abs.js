@@ -10,16 +10,13 @@
  */
 
 // Your code :
-
-//* Begin of tests
 const assert = require('assert')
+var mult = function(a,b){
+    return a*b;
+}
+var c =mult(2, 3);
+assert(c=='7', "2 times three is 6");
+//* Begin of tests
 
-assert.strictEqual(typeof abs, 'function')
-assert.strictEqual(abs.toString().includes('Math.abs'), false)
-assert.notStrictEqual(abs, Math.abs)
-assert.strictEqual(abs.length, 1)
-assert.strictEqual(abs(0), 0)
-assert.strictEqual(abs(-1), 1)
-assert.strictEqual(abs(-13.2), 13.2)
-assert.strictEqual(abs(132), 132)
+
 // End of tests */

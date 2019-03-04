@@ -15,7 +15,7 @@ var mult = function(a,b){
     return a*b;
 }
 var c =mult(2, 3);
-assert(c=='7', "2 times three is 6");
+assert(c=='6', "2 times three is 6");
 //* Begin of tests
 
 

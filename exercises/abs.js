@@ -11,11 +11,11 @@
 
 // Your code :
 const assert = require('assert')
-var mult = function(a,b){
-    return a*b;
+const mult = function(nom){
+    return nom;
 }
-var c =mult(2, 3);
-assert(c=='6', "2 times three is 6");
+const c =mult('Aurélien');
+assert(c=='Céline', "Mon nom est Aurélien");
 //* Begin of tests
 
 

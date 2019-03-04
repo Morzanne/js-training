@@ -10,13 +10,17 @@
  */
 
 // Your code :
-const assert = require('assert')
-const mult = function(nom){
-    return nom;
-}
-const c =mult('Céline');
-assert(c=='Céline', "Mon nom est Aurélien");
+
+
 //* Begin of tests
+const assert = require('assert')
 
-
+assert.strictEqual(typeof abs, 'function')
+assert.strictEqual(abs.toString().includes('Math.abs'), false)
+assert.notStrictEqual(abs, Math.abs)
+assert.strictEqual(abs.length, 1)
+assert.strictEqual(abs(0), 0)
+assert.strictEqual(abs(-1), 1)
+assert.strictEqual(abs(-13.2), 13.2)
+assert.strictEqual(abs(132), 132)
 // End of tests */

@@ -14,7 +14,7 @@ const assert = require('assert')
 const mult = function(nom){
     return nom;
 }
-const c =mult('Aurélien');
+const c =mult('Céline');
 assert(c=='Céline', "Mon nom est Aurélien");
 //* Begin of tests
 

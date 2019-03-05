@@ -5,12 +5,10 @@
  * and returns its absolute value.
  * You are not allowed to use `Math.abs`, make your own.
  * see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
- *
  * @notions Functions, Ternary
  */
 
 // Your code :
-
 
 //* Begin of tests
 const assert = require('assert')

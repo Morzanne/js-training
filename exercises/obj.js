@@ -6,7 +6,13 @@
  *
  * @notions Functions, Operators
  */
-
+var obj={
+    
+}
+obj.str='1337';
+obj.num=42;
+obj.bool=false;
+obj.undef=undefined;
 // Your code :
 
 //* Begin of tests

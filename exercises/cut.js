@@ -9,6 +9,12 @@
  * @notions String methods
  * https://github.com/nan-academy/refs/blob/master/js-training/methods.md#string---transform
  */
+function cutFirst('string'){
+    return 'string'.slice(0,2);
+}
+function cutLast('string'){
+    return 
+}
 
 //* Begin of tests
 const assert = require('assert')

@@ -8,20 +8,26 @@
  * @notions Primitive and Operators, Functions, While
  */
 
-// Your code :
-var i = 0;
-var j =0;
-function multiply(a, b){
-    if(a==0 || b==0){
-        return 0;
-    }else{
-        for(j=0; j !=b; j++){
-            i = i+ a;
-        }
-          return i ;
-    }
 
+// Your code :
+
+
+
+
+
+var i = 0;
+var j = 0;
+function multiply(a, b){
+    for(i=0; i !=b; i++){
+        j = j + b;
+    }
+    
 }
+
+return j
+
+
+
 //* Begin of tests
 const assert = require('assert')
 

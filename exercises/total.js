@@ -6,8 +6,16 @@
  *
  */
 
+var i = 0;
+var j = 0
+function total([]){
+for (let j = 0; index < total.length; j++) {
+i = total[j];
+}
+}
+return i;
 
-//* Begin of tests
+
 const assert = require('assert')
 
 assert.strictEqual(typeof total, 'function')

@@ -9,7 +9,19 @@
  */
 
 // Your code :
+var i = 0;
+var j =0;
+function multiply(a, b){
+    if(a==0 || b==0){
+        return 0;
+    }else{
+        for(j=0; j !=b; j++){
+            i = i+ a;
+        }
+          return i ;
+    }
 
+}
 //* Begin of tests
 const assert = require('assert')
 

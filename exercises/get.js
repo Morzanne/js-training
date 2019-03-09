@@ -14,9 +14,10 @@ const sourceObject = {
   str: 'some text',
   log: console.log,
 }
-
 // Your code :
-
+function get(str){
+  return sourceObject[str];
+}
 //* Begin of tests
 const assert = require('assert')
 

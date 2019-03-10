@@ -16,7 +16,7 @@ function jadenCase(a){
 }
 //* Begin of tests
 const assert = require('assert')
-
+assert.strictEqual(typeof jadenCase, 'function')
 assert.strictEqual(jadenCase('javascript et angular'), ('Javascript et angular'))
 assert.strictEqual(jadenCase('developpeur web junior'), ('Developpeur web junior'))
 

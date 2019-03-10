@@ -11,9 +11,13 @@
  */
 
 
-
+function jadenCase(a){
+    return a.charAt(0).toUpperCase()+a.slice(1);
+}
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(jadenCase('javascript et angular'), ('Javascript et angular'))
+assert.strictEqual(jadenCase('developpeur web junior'), ('Developpeur web junior'))
+
 // End of tests */
